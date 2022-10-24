@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+
+h1#h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 50px 15px gray;
+    border-radius: 15px;
+    height: fit-content;
+    width: 30%;
+    gap: 1rem;
+}
+
+#guessNum {
+    border: none;
+    box-shadow: 5px 5px 50px 15px antiquewhite inset;
+    width: 10rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+button#guess {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-weight: bolder;
+}
+
+button#guess:hover,
+button#again:hover {
+    background-color: white;
+}
+
+button#guess:active,
+button#again:active {
+    transform: scale(1.1);
+}
+
+p#previousGuesses {
+    margin-bottom: 3rem;
+}
+
+#again {
+    width: 5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    font-weight: bolder;
+}
