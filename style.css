@@ -1,13 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 100vh;
+
 }
 
 
 h1#h1 {
     text-align: center;
+    margin: 10px;
 }
 
 .container {
@@ -17,12 +25,14 @@ h1#h1 {
     align-items: center;
     box-shadow: 5px 5px 50px 15px gray;
     border-radius: 15px;
-    height: fit-content;
-    width: 30%;
+    width: 40vw;
     gap: 1rem;
+
+
+
 }
 
-#guessNum {
+#input {
     border: none;
     box-shadow: 5px 5px 50px 15px antiquewhite inset;
     width: 10rem;
@@ -51,9 +61,6 @@ button#again:active {
     transform: scale(1.1);
 }
 
-p#previousGuesses {
-    margin-bottom: 3rem;
-}
 
 #again {
     width: 5rem;
@@ -61,4 +68,8 @@ p#previousGuesses {
     border-radius: 10px;
     background-color: antiquewhite;
     font-weight: bolder;
+}
+
+.para {
+    font-size: 1.2rem;
 }
